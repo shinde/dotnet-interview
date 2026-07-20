@@ -27,10 +27,13 @@ dotnet run
 
 All endpoints are under `/api`:
 
-- `POST /api/createTodo` - Create a new TODO item
-- `POST /api/getTodo` - Get TODO item(s)
-- `POST /api/updateTodo` - Update a TODO item
-- `POST /api/deleteTodo` - Delete a TODO item
+Refactor TODO API:
+- Address SQL injection vulnerabilities
+- Implement Dependency Injection
+- Integrate Entity Framework Core
+- Introduce DTOs for data transfer
+- Define proper RESTful routes
+- Rewrite and improve unit tests
 
 ## Testing
 
